@@ -1,0 +1,49 @@
+{
+	"name": "jamesgeorge",
+	"version": "1.0.0",
+	"description": "The James George CLI",
+	"license": "MIT",
+	"repository": "jamesgeorge007/about-me",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "jamesgeorge998001@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"jamesgeorge": "src/cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"javascript"
+	],
+	"dependencies": {
+		"import-jsx": "^2.0.0",
+		"ink": "^2.1.1",
+		"ink-select-input": "^3.1.1",
+		"open": "^6.3.0",
+		"react": "^16.8.6"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"eslint-config-xo-react": "^0.19.0",
+		"eslint-plugin-react": "^7.7.0",
+		"eslint-plugin-react-hooks": "^1.6.0",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
+	},
+	"xo": {
+		"extends": [
+			"xo-react"
+		]
+	}
+}
