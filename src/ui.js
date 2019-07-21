@@ -1,16 +1,14 @@
 'use strict';
 
 const React = require('react');
-const {Box, Text} = require('ink');
+const {Box} = require('ink');
 const SelectInput = require('ink-select-input').default;
 const open = require('open');
 
 const handleSelect = item => {
 	if (item.url) {
 		open(item.url);
-	}
-
-	if (item.action) {
+	} else if (item.action) {
 		item.action();
 	}
 };
@@ -23,12 +21,20 @@ const listItems = createList([
 		url: 'https://ghuser.io/jamesgeorge007'
 	},
 	{
-		label: 'Twitter',
-		url: 'https://twitter.com/james_madhacks'
-	},
-	{
 		label: 'GitHub',
 		url: 'https://github.com/jamesgeorge007'
+	},
+	{
+		label: 'ko-fi',
+		url: 'https://ko-fi.com/jamesgeorge007'
+	},
+	{
+		label: 'opencollective',
+		url: 'https://opencollective.com/jamesgeorge007'
+	},
+	{
+		label: 'Twitter',
+		url: 'https://twitter.com/james_madhacks'
 	},
 	{
 		label: 'Linkedin',
@@ -51,9 +57,7 @@ const listItems = createList([
 
 module.exports = () => (
 	<Box flexDirection="column">
-		<Box marginBottom={1}>
-			<Text>I’m a Full Stack Developer and the maintainer of Mevn-CLI.</Text>
-		</Box>
+		<Box marginBottom={1}/>
 		<SelectInput items={listItems} onSelect={handleSelect}/>
 	</Box>
 );

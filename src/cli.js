@@ -4,6 +4,7 @@
 const importJsx = require('import-jsx');
 const React = require('react');
 const {render} = require('ink');
+const showBanner = require('node-banner');
 
 const ui = importJsx('./ui');
 
@@ -24,4 +25,9 @@ if (args.length) { // eslint-disable-line unicorn/explicit-length-check
 	process.exit(1);
 }
 
-render(React.createElement(ui));
+// IIFE
+(async () => {
+	await showBanner('James George', 'Full Stack Engineer');
+	// Renders the React component within terminal premises
+	render(React.createElement(ui));
+})();
