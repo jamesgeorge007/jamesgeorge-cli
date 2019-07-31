@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
- $ npx jamesgeorge
+ $ npx jamesgeorge-cli
 ```
 
 ## Built with
