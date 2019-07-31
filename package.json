@@ -3,11 +3,11 @@
 	"version": "1.0.0",
 	"description": "The James George CLI",
 	"license": "MIT",
-	"repository": "jamesgeorge007/about-me",
+	"repository": "jamesgeorge007/jamesgeorge",
 	"author": {
-		"name": "Sindre Sorhus",
+		"name": "James George",
 		"email": "jamesgeorge998001@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "madhacks.madlabs.xyz"
 	},
 	"bin": {
 		"jamesgeorge": "src/cli.js"
