@@ -2,6 +2,8 @@
 
 > The [James George](https://ghuser.io/jamesgeorge007) CLI
 
+![demo-image](https://i.imgur.com/MkYMhDi.png)
+
 ## Usage
 
 ```bash
