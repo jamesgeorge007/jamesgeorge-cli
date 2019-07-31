@@ -1,7 +1,7 @@
 {
-	"name": "jamesgeorge",
+	"name": "jamesgeorge-cli",
 	"version": "1.0.0",
-	"description": "The James George CLI",
+	"description": "My CLIfied portfolio",
 	"license": "MIT",
 	"repository": "jamesgeorge007/jamesgeorge-cli",
 	"author": {
