@@ -16,18 +16,17 @@ const showHelpMessage = () => console.log(' Usage $ jamesgeorge');
 
 if (args.length) { // eslint-disable-line unicorn/explicit-length-check
 	// Show up help.
-	if (['--help', '-h'].indexOf(args[0]) > -1) {
+	if (['--help', '-h'].includes(args[0])) {
 		showHelpMessage();
 	} else {
 		console.warn(' Invalid usage');
 	}
-
-	process.exit(1);
+  return;
 }
 
 // IIFE
 (async () => {
-	await showBanner('James George', 'Full Stack Engineer & Open Sourcerer');
+	await showBanner('James George', 'Full Stack Engineer | Open Sourcerer');
 	// Renders the React component within terminal premises
 	render(React.createElement(ui));
 })();

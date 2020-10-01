@@ -17,32 +17,24 @@ const createList = items => items.map(item => ({...item, key: item.label || item
 
 const listItems = createList([
 	{
-		label: 'Open-Source-Activity',
-		url: 'https://ghuser.io/jamesgeorge007'
-	},
-	{
 		label: 'GitHub',
 		url: 'https://github.com/jamesgeorge007'
-	},
-	{
-		label: 'ko-fi',
-		url: 'https://ko-fi.com/jamesgeorge007'
-	},
-	{
-		label: 'opencollective',
-		url: 'https://opencollective.com/jamesgeorge007'
 	},
 	{
 		label: 'Twitter',
 		url: 'https://twitter.com/james_madhacks'
 	},
 	{
-		label: 'Linkedin',
+		label: 'LinkedIn',
 		url: 'https://linkedin.com/in/jamesgeorge007'
 	},
 	{
 		label: 'Blog',
-		url: 'https://medium.com/@jamesgeorge007'
+		url: 'https://dev.to/jamesgeorge007'
+	},
+	{
+		label: 'Buy Me a Coffee',
+		url: 'https://buymeacoffee.com/jamesgeorge007'
 	},
 	{
 		label: '---------'

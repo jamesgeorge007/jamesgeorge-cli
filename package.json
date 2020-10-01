@@ -1,13 +1,12 @@
 {
-	"name": "jamesgeorge-cli",
+	"name": "jamesgeorge",
 	"version": "1.1.0",
-	"description": "My CLIfied portfolio",
+	"description": "Get to know more about me without leaving the terminal",
 	"license": "MIT",
-	"repository": "jamesgeorge007/jamesgeorge-cli",
+	"repository": "jamesgeorge007/jamesgeorge",
 	"author": {
 		"name": "James George",
-		"email": "jamesgeorge998001@gmail.com",
-		"url": "madhacks.madlabs.xyz"
+		"email": "jamesgeorge998001@gmail.com"
 	},
 	"bin": {
 		"jamesgeorge": "src/cli.js"
